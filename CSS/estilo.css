@@ -1,0 +1,167 @@
+body {
+    background-color: gray;
+}
+
+.titu h1 {
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+.f form {
+    width: 300px;
+    height: 380px;
+    background: rgb(107, 50, 23);
+    color: #fff;
+    position: relative;
+    left: 610px;
+    box-sizing: border-box;
+    padding: 20px 25px;
+    border-radius: 20px;
+
+}
+
+.f label {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    display: block;
+}
+
+.f input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.f input[type="text"],
+.f input[type="date"],
+.f input[type="number"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.f input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #4863fc;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.f input[type="submit"]:hover {
+    cursor: pointer;
+    background: #53f866;
+    color: #000;
+
+}
+
+.t {
+    position: relative;
+    left: 525px;
+
+}
+
+.t table,
+td {
+    border: 2px;
+    background-color: #fff;
+
+
+}
+
+.t h2 {
+    position: relative;
+    left: 130px;
+    color: #fff;
+}
+
+.t table,
+tr {
+    background-color: rgb(107, 50, 23);
+
+}
+
+.t th {
+    color: #fff;
+}
+
+.btn-success {
+    background: #48fc75;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 5px;
+
+}
+
+.btn-danger {
+    background: #fc4848;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.m h1{
+    text-align: center;
+    width: 100%;
+    color: white;
+
+}
+
+.f2{
+    width: 300px;
+    height: 300px;
+    background: rgb(107, 50, 23);
+    color: #fff;
+    position: relative;
+    left: 610px;
+    box-sizing: border-box;
+    padding: 20px 25px;
+    border-radius: 20px;
+
+}
+
+.f2 label {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    display: block;
+}
+
+.f2 input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.f2 input[type="text"],
+.f2 input[type="date"],
+.f2 input[type="number"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.f2 input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #4863fc;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
